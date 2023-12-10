@@ -7,17 +7,21 @@
   <link rel="stylesheet" href="./css/style.css">
   <title>The Daily Digest</title>
 </head>
+<style>
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
+</style>
 <body>
   <div class="container-body">
 
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
       <div class="container-fluid">
-        <img class="navbar-brand logo" src="./images/logo.png" alt="logo">
+        <img class="navbar-brand brand-logo" src="./images/logo.png" alt="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
-        <div class="collapse navbar-collapse d-flex justify-content-end" id="navbarNav">
-          <ul class="navbar-nav me-2">
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
@@ -38,7 +42,7 @@
       </div>
     </nav>
 
-    <div class="container mt-4">
+    <div class="container mt-4 mb-3">
       <div class="row">
         <div class="col-8 p-0">
           <img class="car-img" src="https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="car">
@@ -71,25 +75,54 @@
       </div>
     </div>
 
-    <div class="container text-center">
+    <div class="container mb-4">
       <div class="row">
-        <div class="col">
-          <img class="w-25 h-100" src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-          <p>jjjdjdjjd</p>
+        <div class="col-sm-4">
+          <div class="row h-100">
+            <div class="col-md-5 p-0">
+              <img class="w-100 h-100 sub-img" src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+            <div class="col-sm-7">
+              <h1 class="text-secondary">01</h1>
+              <a class="text-decoration-none" href="#"><h3>NASA's New Mars Rover Discovery Points to Ancient Microbial Life on the Red Planet</h3></a>
+              <p class="text-secondary">Recent findings from NASA's rover reveals compelling evidence </p>
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <img class="w-25 h-100" src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-          <p>jjjdjdjjd</p>
+
+        <div class="col-md-4 ps-4">
+          <div class="row h-100">
+            <div class="col-sm-5 p-0">
+              <img class="w-100 h-100 sub-img" src="https://images.unsplash.com/photo-1520336674427-12c107355955?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+            <div class="col-sm-7">
+              <h1 class="text-secondary">02</h1>
+              <a class="text-decoration-none" href="#"><h3>The Psychology of Commuting: How Daily Travel Impacts Mental Well-being</h3></a>
+              <p class="text-secondary">Psychologists uncover insights into stress levels and strategies for a more positive travel experience</p>
+            </div>
+          </div>
         </div>
-        <div class="col">
-          <img class="w-25 h-100" src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
-          <p>jjjdjdjjd</p>
+
+        <div class="col-md-4 ps-4">
+          <div class="row h-100">
+            <div class="col-sm-5 p-0">
+              <img class="w-100 h-100 sub-img" src="https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+            </div>
+            <div class="col-sm-7">
+              <h1 class="text-secondary">03</h1>
+              <a class="text-decoration-none" href="#"><h3>Mindful Movement: How Yoga and Meditation Practices Reshape Brain Function</h3></a>
+              <p class="text-secondary">The neurological effects of yoga and meditation on brain function and emotional regulation</p>
+            </div>
+          </div>
         </div>
       </div>
     </div>
 
   </div>
+  <div class="attribution">
+    Coded by <a href="https://github.com/NicoleTM17">Nicole Moncrieffe</a>.
+  </div>
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

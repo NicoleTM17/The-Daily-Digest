@@ -1,4 +1,4 @@
-.logo {
+.brand-logo {
   width: 100%;
   height: auto;
   max-width: 100px;
@@ -8,4 +8,9 @@
   width: 100%;
   height: auto;
   max-height: 450px;
+  border-radius: 4px;
+}
+
+.sub-img {
+  border-radius: 4px;
 }/*# sourceMappingURL=style.css.map */
