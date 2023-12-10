@@ -4,17 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300&family=Lora:wght@500&family=Poppins:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>The Daily Digest</title>
 </head>
 <style>
-  .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); }
+  .attribution { font-size: 11px; text-align: center; font-family: 'Poppins', sans-serif; }
+  .attribution a { color: #2A2C39; }
 </style>
 <body>
   <div class="container-body">
 
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">
         <img class="navbar-brand brand-logo" src="./images/logo.png" alt="logo">
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -46,30 +49,30 @@
       <div class="row">
         <div class="col-md-8 p-0">
           <img class="car-img" src="https://images.unsplash.com/photo-1494905998402-395d579af36f?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="car">
-          <div class="row p-4">
+          <div class="row p-4 banner-content">
             <div class="col-md-6">
               <h1>Will Driverless Cars Transform Urban Transportation by 2030?</h1>
             </div>
             <div class="col-md-6">
               <p class="text-secondary">Experts predict a dramatic shift in urban transport as driverless car technology rapidly advances, potentially reshaping city landscapes and commuting habits within the next decade.</p>
-              <button class="btn btn-primary btn-lg">Read more</button>
+              <button class="more-btn btn btn-lg">Read more</button>
             </div>
           </div>
         </div>
 
-        <div class="col-md-4 p-2 ps-4">
-          <h1 class="mt-2">New</h1>
+        <div class="col-md-4 p-2 ps-4 new-section mb-2">
+          <h1 class="mt-2 header">New</h1>
           <div class="border-bottom pt-3">
             <a class="text-decoration-none" href="#"><h5>Virtual Reality Fitness Programs Show Comparable Benefits to Traditional Workouts</h5></a>
-            <p class="text-secondary">Studies demonstrate that virtual reality-based fitness programs yield similar health and fitness benefits as traditional workouts, opening doors for innovative exercise regimes.</p>
+            <p>Studies demonstrate that virtual reality-based fitness programs yield similar health and fitness benefits as traditional workouts, opening doors for innovative exercise regimes.</p>
           </div>
           <div class="border-bottom mt-3 pt-3">
             <a class="text-decoration-none" href="#"><h5>Breakthrough Gene Editing Technique Shows Promise in Treating Genetic Disorders</h5></a>
-            <p class="text-secondary">Scientists unveil a cutting-edge gene-editing method demonstrating remarkable efficacy in correcting mutations linked to various genetic diseases, offering new hope for targeted therapies.</p>
+            <p>Scientists unveil a cutting-edge gene-editing method demonstrating remarkable efficacy in correcting mutations linked to various genetic diseases, offering new hope for targeted therapies.</p>
           </div>
           <div class="mt-3  pt-3">
             <a class="text-decoration-none" href="#"><h5>Revolutionary Quantum Computing Chip Achieves Unprecedented Speed and Stability</h5></a>
-            <p class="text-secondary">Researchers unveil a next-generation quantum computing chip that surpasses previous performance benchmarks, heralding a major leap toward practical quantum computing applications.</p>
+            <p>Researchers unveil a next-generation quantum computing chip that surpasses previous performance benchmarks, heralding a major leap toward practical quantum computing applications.</p>
           </div>
         </div>
       </div>
@@ -80,10 +83,10 @@
         <div class="col-md-4 ps-4 news-card">
           <div class="row h-100">
             <div class="col-md-5 p-0">
-              <img class="w-100 h-100 sub-img" src="https://images.unsplash.com/photo-1542282088-fe8426682b8f?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
+              <img class="w-100 h-100 sub-img" src="https://images.unsplash.com/photo-1647323968696-0ea09525407c?q=80&w=1563&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
             </div>
-            <div class="col-sm-7">
-              <h1 class="text-secondary">01</h1>
+            <div class="col-sm-7 news-txt">
+              <h1 class="text-secondary">01.</h1>
               <a class="text-decoration-none" href="#"><h3>NASA's New Mars Rover Discovery Points to Ancient Microbial Life on the Red Planet</h3></a>
               <p class="text-secondary">Recent findings from NASA's rover reveals compelling evidence </p>
             </div>
@@ -95,8 +98,8 @@
             <div class="col-sm-5 p-0">
               <img class="w-100 h-100 sub-img" src="https://images.unsplash.com/photo-1520336674427-12c107355955?q=80&w=1587&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
             </div>
-            <div class="col-sm-7">
-              <h1 class="text-secondary">02</h1>
+            <div class="col-sm-7 news-txt">
+              <h1 class="text-secondary">02.</h1>
               <a class="text-decoration-none" href="#"><h3>The Psychology of Commuting: How Daily Travel Impacts Mental Well-being</h3></a>
               <p class="text-secondary">Psychologists uncover insights into stress levels and strategies for a more positive travel experience</p>
             </div>
@@ -108,8 +111,8 @@
             <div class="col-sm-5 p-0">
               <img class="w-100 h-100 sub-img" src="https://images.unsplash.com/photo-1545389336-cf090694435e?q=80&w=1528&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="">
             </div>
-            <div class="col-sm-7">
-              <h1 class="text-secondary">03</h1>
+            <div class="col-sm-7 news-txt">
+              <h1 class="text-secondary">03.</h1>
               <a class="text-decoration-none" href="#"><h3>Mindful Movement: How Yoga and Meditation Practices Reshape Brain Function</h3></a>
               <p class="text-secondary">The neurological effects of yoga and meditation on brain function and emotional regulation</p>
             </div>

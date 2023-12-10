@@ -1,18 +1,93 @@
+.navbar {
+  background-color: rgb(228, 228, 228);
+  font-family: "Poppins", sans-serif;
+}
+
 .brand-logo {
   width: 100%;
   height: auto;
   max-width: 100px;
 }
 
+.nav-link {
+  color: #2A2C39;
+}
+
+.nav-link:hover {
+  opacity: 0.7;
+}
+
+@media (max-width: 992px) {
+  .nav-item {
+    padding: 1rem;
+  }
+}
+@media (max-width: 767px) {
+  .nav-item {
+    padding: 1rem;
+  }
+  .car-img {
+    padding: 0.5rem;
+    padding-right: 0 !important;
+  }
+  .news-txt {
+    padding: 1rem;
+  }
+}
 .car-img {
   width: 100%;
   height: auto;
   max-height: 450px;
+  -o-object-fit: cover;
+     object-fit: cover;
   border-radius: 4px;
+  padding-right: 1rem !important;
 }
 
 .sub-img {
   border-radius: 4px;
+}
+
+.banner-content h1 {
+  color: #2A2C39;
+  font-family: "Lora", serif;
+}
+
+.banner-content p {
+  color: #2A2C39;
+  font-family: "Inter", sans-serif;
+}
+
+.new-section {
+  background-color: #2A2C39;
+  border-radius: 4px;
+}
+
+.more-btn {
+  background-color: #2A2C39;
+  color: white;
+  transition: 200ms ease-in-out;
+}
+
+.more-btn:hover {
+  background-color: #2A2C39;
+  color: white;
+  opacity: 0.8;
+}
+
+.new-section .header {
+  color: white;
+}
+
+.new-section h5 {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.new-section p {
+  color: white;
+  opacity: 0.7;
+  font-family: "Inter", sans-serif;
 }
 
 .news-card {
@@ -21,8 +96,12 @@
 
 .news-card h3 {
   font-size: large;
+  color: #2A2C39;
+  font-family: "Poppins", sans-serif;
 }
 
 .news-card p {
   font-size: small;
+  color: #2A2C39;
+  font-family: "Inter", sans-serif;
 }/*# sourceMappingURL=style.css.map */

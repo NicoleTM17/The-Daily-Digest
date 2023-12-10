@@ -1,18 +1,67 @@
 
-@import 'navbar';
+$primary-color: #2A2C39;
+$inter: 'Inter', sans-serif;
+$poppins: 'Poppins', sans-serif;
+$lora: 'Lora', serif;
 
+
+@import 'navbar';
+@import 'responsive';
 
 .car-img{
   width: 100%;
   height: auto;
   max-height: 450px;
+  object-fit: cover;
   border-radius: 4px;
+  padding-right: 1rem !important;
 }
 
 .sub-img{
   border-radius: 4px;
 }
 
+.banner-content h1{
+  color: $primary-color;
+  font-family: $lora;
+}
+
+.banner-content p{
+  color: $primary-color;
+  font-family: $inter;
+}
+
+.new-section{
+  background-color: $primary-color;
+  border-radius: 4px;
+}
+
+.more-btn{
+  background-color: $primary-color;
+  color: white;
+  transition: 200ms ease-in-out;
+}
+
+.more-btn:hover{
+  background-color: $primary-color;
+  color: white;
+  opacity: .8;
+}
+
+.new-section .header{
+  color: white;
+}
+
+.new-section h5{
+  color: white;
+  font-family: $poppins;
+}
+
+.new-section p{
+  color: white;
+  opacity: .7;
+  font-family: $inter;
+}
 
 .news-card{
   font-size: smaller;
@@ -20,8 +69,12 @@
 
 .news-card h3{
   font-size:large;
+  color: $primary-color;
+  font-family: $poppins;
 }
 
 .news-card p{
   font-size: small;
+  color: $primary-color;
+  font-family: $inter;
 }
