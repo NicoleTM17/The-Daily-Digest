@@ -30,6 +30,11 @@
     padding: 0.5rem;
     padding-right: 0 !important;
   }
+  .new-section {
+    max-width: 90%;
+    display: block;
+    margin: 0 auto;
+  }
   .news-txt {
     padding: 1rem;
   }
